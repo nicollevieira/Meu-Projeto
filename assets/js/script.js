@@ -1,9 +1,19 @@
-console.log("Hello, world!")
+const imgsDestaque = [
+    "./assets/img/imagemdestaque.png",
+    "./assets/img/frozen3.jpg",
+    "./assets/img/frozenlogo.png"
+]
 
-const nicolle = "Nicolle"
+let imagemAtual = 1;
 
-console.log(nicolle)
+const imagem = document.querySelector ('#imagemDestaque')
 
-let fundodetela = "preto"
+setInterval(function () {
+    imagemAtual++;
+    if (imagemAtual >= imgsDestaque.length){
+        imagemAtual = 0;
+    }
 
-console.log(fundodetela)
+    imagem.src = imgsDestaque[imagemAtual]
+
+}, 1000)
