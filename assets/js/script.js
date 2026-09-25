@@ -16,4 +16,5 @@ setInterval(function () {
 
     imagem.src = imgsDestaque[imagemAtual]
 
-}, 1000)
+}, 3000)
+ 
