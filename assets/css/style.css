@@ -15,6 +15,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 8%;
+    font-family: 'New Walt Disney Font', sans-serif;
     background-color: #1d2e53;
     border-bottom: 1px solid #b0b0b0;
     position: sticky;
@@ -43,6 +44,7 @@ header {
     color: #eee;
     text-decoration: none;
     font-size: 14px;
+    font-family: Arial;
 }
 .menu a:hover{
     color: #eee;
@@ -83,7 +85,8 @@ header {
     letter-spacing: 1.5px;
 }
 h1 {
-    font-size: 52px;
+    font-family: 'New Walt Disney Font', sans-serif;
+    font-size: 60px;
     line-height: 1.05;
     margin: 12px 0 20px;
 }
@@ -125,7 +128,8 @@ h1 {
     letter-spacing: 2px;
 }
 .titulo h2 {
-    font-size: 32px;
+    font-family: 'New Walt Disney Font', sans-serif;
+    font-size: 40px;
     margin-top: 5px;
 }
 .titulo a {
